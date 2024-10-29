@@ -84,6 +84,8 @@ background-position:bottom right;
     margin-bottom: 20px;
 
 }
+
+}
 .note{
     font-size: 18px;
 }
@@ -93,7 +95,9 @@ background-position:bottom right;
 }
 
 /*main section styles*/
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 
 
 
@@ -101,8 +105,15 @@ background-position:bottom right;
 /*about*/
 .about{
     padding:130px;
-    color: #fff8f3;
+    background-color: #fff8f3;
     border-radius: 10px;
     margin-top: 130px;
 
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
