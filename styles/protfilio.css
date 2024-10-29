@@ -145,7 +145,17 @@ main{
 }
 .degree-description{
     font-size: 16px;
+    color: #757575;
 }
 .degree-year{
     font-size: 20px;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.downdload-cv{
+    text-align: center;
+    margin-top: 50px;
 }
